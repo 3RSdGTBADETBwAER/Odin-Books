@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="transparent"></div>
+    <header><strong>Library</strong></header>
+    <main>
+
+        <div class="addbookcontainer">
+            <button id="AddBook"><strong>+ Add Book</strong></button>
+            <div id="formcontainer">
+                <form id="form" action="app.js">
+            
+                            <input type="text" onfocus="this.value=''" id="Title" value="Name" name="Title" required>
+                            <input type="text" id="Author" value="Author"onfocus="this.value=''" name="Author" required>
+                            <label for="Pages">Pages:</label>
+                            <input type="number" id="Pages"  name="Pages" required>
+                            <label for="Read">Have you read it?</label>
+                            <input type="checkbox" id="Read" name="Read">
+                            <input type="submit" id="Submit" name="Submit" required>
+                </form>
+            </div>
+        </div>
+        <div class="maincontaine">
+            <div id="container">
+
+            </div>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html> 

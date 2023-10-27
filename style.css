@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: RGB(240, 238, 241);
+
+}
+
+header {
+    background-color: RGB(255, 251, 251);
+    padding: 1.5%;
+    display: flex;
+    justify-content: start;
+    padding-left: 20%;
+    font-size: 2em;
+}
+
+.addbookcontainer {
+    padding: 2%;
+    background-color: RGB(240, 238, 241);
+    justify-content: center;
+    display: flex;
+}
+
+#AddBook {
+    padding: 2em;
+    border: 0;
+    background-color: RGB(240, 240, 240);
+    font-size: 1em;
+}
+
+.maincontaine {
+    background-color: RGB(240, 238, 241);
+    height: 100vh;
+}
+
+#container {
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+    background-color: RGB(240, 238, 241);
+    display: grid;
+    gap: 30px;
+    grid-template-rows: 3fr 3fr;
+    grid-template-columns: 3fr 3fr 3fr;
+
+}
+
+.book {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    text-align: center;
+}
+
+.book div {
+    padding: 4%;
+}
+
+.book button {
+    font-size: 1em;
+    border-radius: 10px;
+    border: 0px;
+    width: 10em;
+    height: 2em;
+}
+
+.bookread button {
+    background-color: greenyellow;
+}
+
+#formcontainer {
+    top: 25%;
+    padding: 30px;
+    background-color: white;
+    position: absolute;
+    width: 17%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    display: none;
+    
+}
+
+#transparent {
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.4;
+    display: none;
+    height: 200vh;
+
+}
+#form {
+    margin-bottom: 10px;
+    padding-left: 0%;
+    padding-right:  0%;
+
+}
+
+input{margin: 10px;
+    width: 90%;
+    height: 24px;
+}
+label{
+        padding-left: 20%;
+}
+#Submit{
+    font-size: 1em;
+    border-radius: 10px;
+    border: 0px;
+
+    height: 2em;
+
+}
+
